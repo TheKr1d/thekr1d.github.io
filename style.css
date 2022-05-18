@@ -1,14 +1,18 @@
-nav {
-    font-size: 40px;
+
+body {
+    margin: 0;
+    padding: 0;
+
+    color: #303846;
+    font-size: 20px;
+    font-family: serif;
+    background-color: #fbfafc;
 }
-
 .header {
-    background-color: #c3c3c3;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  border-bottom: 1px solid #e0dfdf;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .fixed-header {
@@ -19,12 +23,34 @@ nav {
 }
 
 .top-menu > * {
-    color: #404040;
-    background-color: #bbb;
     display: inline-block;
     padding-right: 25px;
     padding-left: 25px;
     font-weight: bold;
-    border: 1px solid #bbb;
-    border-radius: 100px 0;
+
+    font-size: 30px;
+}
+
+.padding-header {
+    padding-top: 100px;
+}
+
+.container {
+  width: 1230px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  border: 1px solid black;
+}
+
+.column-container {
+  flex-wrap: wrap;
+  column-count: 2;
+}
+
+.column-2 {
+  width: 95%;
+  margin-bottom: 2%;
+  padding-right: 15px;
+  padding-left: 15px;
 }
