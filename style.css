@@ -2,8 +2,25 @@ nav {
     font-size: 40px;
 }
 
-.top-menu li {
+.header {
+    background-color: #c3c3c3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 1px solid #e0dfdf;
+}
+
+.fixed-header {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  top: 0;
+}
+
+.top-menu > * {
     color: #404040;
+    background-color: #bbb;
     display: inline-block;
     padding-right: 25px;
     padding-left: 25px;
